@@ -1,0 +1,220 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: "Poppins", sans-serif;
+}
+a:link, a:visited{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+.text-center{
+	text-align:center;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+.row{
+	display:table;
+	width:100%;
+	clear:both;
+}
+[class^="col-"]{
+	float:left;
+	padding:0 15px;
+}
+.col-3{
+	width:calc(100%*3/12);
+}
+.col-4{
+	width:calc(100%*4/12);
+}
+.col-5{
+	width:calc(100%*5/12);
+}
+.col-9{
+	width:calc(100%*9/12S);
+}
+.col-10{
+	width:calc(100%*10/12);
+}
+.col-12{
+	width:calc(100%*12/12);
+}
+.offset-1{
+	margin-left:calc(100%*1/12);
+}
+.offset-2{
+	margin-left:calc(100%*2/12);
+}
+.offset-4{
+	margin-left:calc(100%*4/12);
+}
+.pri-heading{
+	font-size:32px;
+	color:#010101;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+.sec-heading{
+	font-size:20px;
+	color:#010101;
+	margin-bottom:25px;
+	font-weight:400;
+}
+.feature.sec-heading{
+	margin-bottom:90px;
+}
+.para{
+	color:#555555;
+	margin-bottom:40px;
+}
+.heroImg{
+	background-color:#fbdb00;
+	padding:60px 0 107px;
+}
+.header{
+	margin-bottom:70px;
+}
+.logo{
+   display:inline-block;	
+}
+.navbar ul li{
+	display:inline-block;
+	margin:0 15px;
+}
+.navbar ul li a{
+	color:#010101;
+	font-size:22px;
+	font-weight:bold;
+	text-transform:capitalize;
+	padding:0 15px;
+	display:inline-block;
+	height:50.2px;
+	line-height:50.2px;
+	position:relative;
+}
+.navbar ul li a::before{
+	content:'';
+	width:0;
+	height:2px;
+	display:inline-block;
+	background-color:#010101;
+	position:absolute;
+	left:0;
+	bottom:0;
+	transition:width .4s ease-in-out;
+}
+.navbar ul li a:hover::before{
+	width:100%;
+}
+.inspirationInfo{
+	padding-top:75px;
+}
+.brandIcons li{
+	display:inline-block;
+	margin-right:40px;
+}
+.brandIcons li a{
+	color:#010101;
+}
+.brandIcons li a i{
+	font-size:40px;
+	transition:all .4s;
+}
+.brandIcons li a i:hover,
+.brandIcons li a i:focus,
+.brandIcons li a i:active{
+	transform:rotate(360deg) scale(1.5);
+}
+
+
+
+.feature{
+	padding:120px 0 70px;
+}
+.thumbnail{
+	margin-bottom:90px;
+}
+.thumbnail h4{
+	font-size:22px;
+	color:#010101;
+	text-transform:capitalize;
+	margin-bottom:15px;
+}
+.thumbnail p{
+	color:#898989;
+	font-size:16px;
+}
+
+
+
+
+.footer{
+	padding:95px 0 170px;
+	background-color:#010101;
+}
+.footer .pri-heading{
+	color:#fcdb00;
+}
+.footer .sec-heading{
+	color:#898989;
+	margin-bottom:40px;
+}
+.keepInTouch{
+	padding:0 20px;
+	margin-bottom:135px;
+}
+.keepInTouch .form-group{
+	margin-bottom:80px;
+}
+#email{
+	//*  width:(100%-160px); *//
+	width:50%;
+    height:50px;
+	border-radius:5px;
+	padding:0 20px;
+	border:1px solid #fff;
+	outline:none;
+}
+#email::placeholder{
+	color:#898989;
+	font-size:16px;
+}
+.keepInTouch .btn{
+	width:130px;
+	text-align:center;
+	height:50px;
+	text-transform:uppercase;
+	background-color:#fcdb00;
+	border:1px solid #fcdb00;
+	color:#010101;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:16px;
+	margin-left:20px;
+	transition:all .4s ease-in-out;
+}
+.keepInTouch .btn:hover,
+.keepInTouch .btn:focus,
+.keepInTouch .btn:active{
+	background-color:#010101;
+	color:#fcdb00;
+	box-shadow:0 5px 5px #fcdb00;
+}
+.footer .brandIcons li a{
+	color:#fbdb00;
+}
+.footerLinks li,
+.footerLinks li a:link,
+.footerLinks li a:visited{
+	color:#fff;
+	font-size:16px;
+	text-transform:capitalize;
+}
